@@ -1,0 +1,28 @@
+{
+  "name": "agentops-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "agentops": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "chalk": "^4.1.2",
+    "commander": "^14.0.3",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.9.3"
+  }
+}
