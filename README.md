@@ -2,7 +2,7 @@
 
 **AgentOps-cli** is a multi-function AI Agent management toolkit built with Node.js, TypeScript, and Object-Oriented Programming (OOP) principles. It simulates managing AI agents, their tasks, global memory, and retrieving external AI insights, resembling professional command systems.
 
-## 🛠 Project Overview
+##  Project Overview
 It is heavily structurally designed around OOP base classes:
 - **`Command`**: An abstract base class managing CLI command execution and arguments.
 - **`ApiService`**: An abstract service class handling HTTP communications via `axios`.
@@ -16,7 +16,7 @@ It integrates seamlessly with:
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
@@ -42,11 +42,11 @@ npm link
 
 ---
 
-## 📜 Available Commands
+##  Available Commands
 
 The CLI tool offers **10 operations** grouped logically:
 
-### 🤖 Agent Commands
+###  Agent Commands
 | Command | Description |
 |---|---|
 | `agentops agent:create <name>` | Creates a new AI agent with a generated UUID. |
@@ -54,27 +54,27 @@ The CLI tool offers **10 operations** grouped logically:
 | `agentops agent:run <name> <task>` | Assigns a task to an agent and sets its status to 'running'. |
 | `agentops agent:stop <name>` | Stops an agent from running its current task. |
 
-### 📝 Task Commands
+###  Task Commands
 | Command | Description |
 |---|---|
 | `agentops task:add <description>` | Adds a single new pending task to the local system. |
 | `agentops task:list` | Lists all pending and completed tasks. |
 | `agentops task:seed --count <number>` | Fetches mock tasks from a remote API and saves them locally. |
 
-### 🧠 Memory Commands
+###  Memory Commands
 | Command | Description |
 |---|---|
 | `agentops memory:store <data>` | Stores raw text or data into the global agent memory system. |
 | `agentops memory:list` | Displays everything currently memorized by the global system with timestamps. |
 
-### 💡 Insight Commands
+###  Insight Commands
 | Command | Description |
 |---|---|
 | `agentops inspire` | Contacts an AI Quote API to fetch and display an inspiring programming quote. |
 
 ---
 
-## 💡 Example Usage
+##  Example Usage
 
 1. Create a few agents:
 ```bash
